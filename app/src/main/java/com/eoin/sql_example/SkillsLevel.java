@@ -12,7 +12,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 /**
  * Created by user on 17/11/2015.
  */
-public class SkillsLevel {
+public class SkillsLevel{
     public static final String KEY_ROWID = "_id";
     public static final String KEY_NAME = "persons_name";
     public static final String KEY_SKILL = "persons_skill";
@@ -31,6 +31,7 @@ public class SkillsLevel {
         public DbHelper(Context context) {
             super(context, DATABASE_NAME, null, DATABASE_VERSION);
             // TODO Auto-generated constructor stub
+
         }
 
         @Override
