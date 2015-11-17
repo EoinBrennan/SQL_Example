@@ -11,6 +11,8 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 /**
  * Created by user on 17/11/2015.
+ *
+ * Test.
  */
 public class SkillsLevel{
     public static final String KEY_ROWID = "_id";
@@ -72,6 +74,8 @@ public class SkillsLevel{
         cv.put(KEY_NAME, name);
         cv.put(KEY_SKILL, skill);
         return ourDatabase.insert(DATABASE_TABLE, null, cv);
+
+
     }
 
     public String getData() {
