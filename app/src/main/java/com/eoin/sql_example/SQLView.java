@@ -18,6 +18,7 @@ public class SQLView extends AppCompatActivity {
 
 
         SkillsLevel info = new SkillsLevel(this);
+        //brendans comment
 
         info.open();
         String data = info.getData();
