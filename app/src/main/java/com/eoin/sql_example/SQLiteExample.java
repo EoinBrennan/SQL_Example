@@ -27,6 +27,7 @@ public class SQLiteExample extends AppCompatActivity implements View.OnClickList
         sqlView = (Button) findViewById(R.id.bSQLOpenView);
         sqlView.setOnClickListener(this);
         sqlUpdate.setOnClickListener(this);
+        // test 2
 
         sqlRow = (EditText) findViewById(R.id.etSQLrowInfo);
         sqlModify = (Button) findViewById(R.id.bSQLmodify);
