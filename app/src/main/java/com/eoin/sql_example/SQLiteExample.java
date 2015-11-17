@@ -13,6 +13,8 @@ public class SQLiteExample extends AppCompatActivity implements View.OnClickList
 
     // Comment made 17/11/2015 17:27, by Eoin.
 
+    // Eoin branch test, 17/11/2015 17:27, by Eoin.
+
     Button sqlUpdate, sqlView, sqlModify, sqlGetInfo, sqlDelete;
     EditText sqlName, sqlSkill, sqlRow;
 
