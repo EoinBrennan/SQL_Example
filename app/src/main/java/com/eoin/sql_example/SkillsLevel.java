@@ -52,6 +52,7 @@ public class SkillsLevel{
             db.execSQL("DROP TABLE IF EXISTS " + DATABASE_TABLE);
             onCreate(db);
         }
+
     }
 
     public SkillsLevel(Context c){
