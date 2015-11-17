@@ -11,6 +11,8 @@ import android.widget.TextView;
 
 public class SQLiteExample extends AppCompatActivity implements View.OnClickListener {
 
+    // Comment made 17/11/2015 17:27, by Eoin.
+
     Button sqlUpdate, sqlView, sqlModify, sqlGetInfo, sqlDelete;
     EditText sqlName, sqlSkill, sqlRow;
 
