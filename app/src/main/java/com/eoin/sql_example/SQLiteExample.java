@@ -22,10 +22,12 @@ public class SQLiteExample extends AppCompatActivity implements View.OnClickList
         sqlUpdate = (Button) findViewById(R.id.bSQLUpdate);
         sqlName = (EditText) findViewById(R.id.etSQLname);
         sqlSkill = (EditText) findViewById(R.id.etSQLSkill);
+        //test
 
         sqlView = (Button) findViewById(R.id.bSQLOpenView);
         sqlView.setOnClickListener(this);
         sqlUpdate.setOnClickListener(this);
+        // test 2
 
         sqlRow = (EditText) findViewById(R.id.etSQLrowInfo);
         sqlModify = (Button) findViewById(R.id.bSQLmodify);
