@@ -7,7 +7,7 @@ import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-
+// Cool/funny comment by allan
 
 /**
  * Created by user on 17/11/2015.
